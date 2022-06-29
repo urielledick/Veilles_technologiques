@@ -1,0 +1,423 @@
+
+/*Ces styles s'appliquent à l'ensemble du site*/
+
+html
+{
+	Height: 100%;
+	min-height: 100%;
+	position: relative;
+}
+
+h1
+{
+	color: navy;
+	font-size: 50px;
+	font-family: arial;
+	text-align: center;
+	background-color: lightskyblue;
+	opacity: 10;
+	display: block;
+	position: absolute;
+	top: -24px;
+	left: 225px;
+	height: 50px;
+	width: 1000px;
+	padding-bottom: 15px;
+	
+}
+
+h2
+{
+	color: black;
+}
+
+.logo
+{
+		position: absolute;
+		top: 1px;
+		left: 15px;
+		height: px;
+		width: 1px;
+		
+}
+
+
+h2
+{
+	text-align: center;
+}
+
+.accueil
+{
+    background-color: white;
+	font-size: 30px;
+	color: black;
+	width: 280px;
+	display: block;	
+	position: absolute;
+	top: 78px;
+	left:225px;
+	height: px;
+	text-align: center;
+}
+
+.selection
+{
+
+ background-color: white;
+	font-size: 30px;
+	color: black;
+	width: 290px;
+	display: block;	
+	position: absolute;
+	top: 78px;
+	left:570px;
+	height: px;
+	text-align: center;
+}
+
+.info
+{
+	background-color: white;
+	font-size: 30px;
+	color: black;
+	width: 285px;
+	display: block;	
+	position: absolute;
+	top: 78px;
+	left:940px;
+	height: px;
+	text-align: center;
+}
+
+ a:link
+{
+	
+	color: ;
+	text-decoration: none;
+}
+
+a:visited
+{
+	color: black;
+}
+
+a:focus
+{
+	
+	
+}
+
+a:hover
+{
+	
+	color: ;
+	font-weight: bold;
+}
+
+a:active
+{
+	background-color: ;	
+}
+
+body
+{
+	background-image: url(imagees/livree.jpg);
+	text-align: center;
+	height: 100%;
+	min-height: 100%;
+	position: relative;
+}
+
+.mail
+{
+	color: navy;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+
+
+
+/*.footer
+{
+	color: navy;
+	font-family: arial;
+	font-weight: bold;
+	font-size:17px;
+	text-align: center;
+	background-color: lightskyblue;
+	position:fixed;
+	bottom:6px;
+	left: 50px;
+	width: 1200px;
+	padding-top: 2px;
+}*/
+/*fin style ensemble page*/
+
+/* Ces styles s'appliquent à la page accueil*/
+
+.lire1
+{
+	position:absolute;
+	left: 90px;
+	right:10px ;
+	top: 125px;
+	font-size: 18px;
+	background-color: white;
+	text-align: center;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	display: block;
+	width:1100px;
+}
+
+.lire2
+{
+	position: absolute;
+	left: 90px;
+	right: 190px;
+	top:345px;
+	font-size: 17px;
+	background-color: white;
+	text-align: right;
+	padding-top:15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	display: block;
+	width:500px;
+}
+
+.lire3
+{
+	position: absolute;
+	left:640px;
+	right: 190px;
+	top:345px;
+	font-size: 17px;
+	background-color: white;
+	text-align: left;
+	padding-top:15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	display: block;
+	width:550px;
+}
+
+
+
+
+
+
+p
+{
+	background-color: white;
+}
+
+.footer1
+{
+	color: navy;
+	font-family: arial;
+	font-weight: bold;
+	font-size:17px;
+	text-align: center;
+	background-color: lightskyblue;
+	position:absolute;
+	bottom:3px;
+	left: 50px;
+	width: 1190px;
+	padding-top: 2px;
+	margin-bottom: 3px;
+}
+/* fin style page accueil*/
+
+
+/*Ces styles s'appliquent à la page sélection*/
+
+section
+{
+	position: relative;
+	
+}
+
+.intro
+{
+	width:1135px;
+	background-color: white;
+	position: absolute;
+	font-weight: italic;
+	text-align: center;
+	top: 140px;
+	left: 90px;
+	right: 190px;
+	font-size: 20px;
+	font-family: arial;
+	padding-top: 2px;
+	padding-bottom:5px;
+	font-weight: bold;
+}
+
+.livre1
+{
+	position: absolute;
+	left: 90px;
+	right: 190px;
+	top:210px;
+	font-size: 20px;
+	background-color: white;
+	text-align: justify ;
+	padding-top: 15px;
+	padding-left: 20px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+	display: block;
+	width:1100px;
+	font-family: arial;
+	font-size: 18px;
+}
+
+.imglivre1
+{
+	float: left; 
+	padding-right: 10px;
+}
+
+strong
+{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.livre2
+{
+	position:  absolute;
+	left: 90px;
+	right: 190px;
+	top:565px;
+	font-size: 20px;
+	background-color: white;
+	text-align: justify ;
+	padding-left: 20px;
+	padding-right:15px;
+	padding-bottom: 10px;
+	display: block;
+	width:1100px;
+	font-family: arial;
+	font-size: 18px;
+}
+
+.imglivre2
+{
+	float: left; 
+	padding-right: 10px;
+}
+
+.livre3
+{
+	position:  absolute;
+	left: 90px;
+	right: 190px;
+	top:1050px;
+	font-size: 20px;
+	background-color: white;
+	text-align: justify ;
+	padding-left: 20px;
+	padding-right:15px;
+	padding-bottom: 10px;
+	display: block;
+	width:1100px;
+	font-family: arial;
+	font-size: 18px;
+}
+
+.imglivre3
+{
+	float: left; 
+	padding-right: 10px;
+}
+
+.footer2
+{
+	color: navy;
+	font-family: arial;
+	font-weight: bold;
+	font-size:17px;
+	text-align: center;
+	background-color: lightskyblue;
+	position:absolute;
+	TOP:1440px;
+	left: 50px;
+	width: 1190px;
+	padding-top: 2px;
+	padding-bottom: 3px;
+	
+}
+
+.telecharger
+{
+
+  font-size: 17px;
+  background-color:;
+  
+  font-weight: bold;
+  padding-left: ;
+  text-align: center;
+}
+
+
+/* fin style page sélection*/
+
+/*style page contact*/
+
+form
+{
+	background-color: white;
+	position: absolute;
+	left: 370px;
+	top: 150px;
+	padding: 20px;
+	text-align: center;
+	width: 600px;
+	FONT-family: arial;
+	
+}
+
+.formtitre
+{
+	font-size: 30px;
+	color: navy;
+}
+
+.p1
+{
+	text-align: center ;
+	FONT-family: arial;
+	font-weight: bold;
+}
+
+.formulaire
+{
+	display: block;
+	white-space: normal;
+	text-align: center
+}
+
+.footer3
+{
+	color: navy;
+	font-family: arial;
+	font-weight: bold;
+	font-size:17px;
+	text-align: center;
+	background-color: lightskyblue;
+	position:absolute;
+	TOP:790px;
+	left: 50px;
+	width: 1190px;
+	padding-top: 2px;
+	padding-bottom:3px;
+	
+}
