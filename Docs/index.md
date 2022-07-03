@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
   <head>
-  THEME: 'jekyll-theme-caiman'
+
    <title>Hacker - Kevin Mitnick</title>
   </head> 
    <body>
